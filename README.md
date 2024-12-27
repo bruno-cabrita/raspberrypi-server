@@ -6,10 +6,13 @@ This is a personal guide to setup a home server using a Raspberry Pi runnig serv
 
 The server must have SSH enabled and Docker + Git installed.
 
-### Getting started
+### Instructions
 
-1. SSH into your server
+- [Getting started](docs/getting-started.md)
 
-2. cd into `/opt` folder
 
-3. clone this repo: `git clone https://github.com/bruno-cabrita/raspberrypi-server.git server`
+## Commands
+
+| Command                | Description   |
+| ---------------------- | ------------- |
+| `sudo shutdown -r now` | Reboot server |
