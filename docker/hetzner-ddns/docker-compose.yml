@@ -1,0 +1,7 @@
+services:
+  hetzner-ddns:
+    container_name: "hetzner-ddns"
+    image: "filiparag/hetzner_ddns:latest-arm64"
+    restart: "unless-stopped"
+    volumes:
+      - "./hetzner_ddns.conf:/etc/hetzner_ddns.conf:ro"

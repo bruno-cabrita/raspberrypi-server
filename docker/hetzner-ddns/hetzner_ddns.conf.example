@@ -1,0 +1,17 @@
+# Seconds between updates / TTL value
+interval='60'
+
+# Hetzner DNS API key
+key='18fe3b02339b23ef2418f9feda1b69ef'
+
+# Top level domain name
+domain='example.com'
+
+# Space separated host subdomains (@ for domain itself)
+records='homelab media vpn'
+
+# Enable updating A records (IPv4)
+ipv4=true
+
+# Enable updating AAAA records (IPv6)
+ipv6=false
